@@ -1,3 +1,5 @@
+package Baekjoon;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,7 +14,7 @@ public class p2750 {
 			arr[i] = Integer.parseInt(br.readLine());
 		}
 		Arrays.sort(arr);
-		
+
 		for (int i = 0; i < n; i++) {
 			System.out.println(arr[i]);
 		}
